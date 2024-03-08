@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test-task-litesoft-agency/static/css/main.667ad321.css",
+    "main.js": "/test-task-litesoft-agency/static/js/main.4deec07a.js",
+    "index.html": "/test-task-litesoft-agency/index.html",
+    "static/media/sprite.svg": "/test-task-litesoft-agency/static/media/sprite.2dd6c126594d7c7c450ce492fe4e84a5.svg",
+    "main.667ad321.css.map": "/test-task-litesoft-agency/static/css/main.667ad321.css.map",
+    "main.4deec07a.js.map": "/test-task-litesoft-agency/static/js/main.4deec07a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.667ad321.css",
+    "static/js/main.4deec07a.js"
+  ]
+}
