@@ -1,0 +1,29 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/functions';
+@import '../../sass/utils/mixins';
+
+.header {
+    /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+    flex: 0 0 auto;
+}
+
+.wrraper, .wishlist {
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.wishlist {
+    margin-left: 14px;
+    font-weight: 400;
+    @include font(12px, 14.06px);
+    color: getColor('text-desc');
+    cursor: pointer;
+}
+
+.wishlistIcon {
+    margin-right: 8px;
+}

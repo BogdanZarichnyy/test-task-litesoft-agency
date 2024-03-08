@@ -1,0 +1,59 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/functions';
+@import '../../sass/utils/mixins';
+
+.photo { 
+  display: block;
+  width: 100px;
+  object-fit: contain;
+}
+
+.likeButton {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid getColor('disable');
+}
+
+.paper {
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.table {
+  background-color: getColor('background');
+  // border-collapse: separate;
+  // border-spacing: 0 10px;
+}
+
+.th {
+  padding: 7.5px 10px;
+  background-color: getColor('background');
+  border: none;
+  @include font(12px, 15.6px);
+}
+
+.switch {
+  transform: rotate(180deg);
+  margin-left: auto;
+}
+
+.label {
+  display: inline-block;
+  margin-left: 5px;
+  width: 50px;
+}
+
+.tbody, .tr {
+  background-color: getColor('background');
+}
+
+.td {
+  padding: 5px 10px;
+  background: getColor('main');
+  height: 110px;
+  @include font(12px, 15.6px);
+}

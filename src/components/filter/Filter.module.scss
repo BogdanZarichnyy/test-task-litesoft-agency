@@ -1,0 +1,66 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/functions';
+@import '../../sass/utils/mixins';
+
+.filter {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+
+  @media screen and (min-width: $tablet) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.filterButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+
+  @media screen and (min-width: $tablet) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.button {
+  display: flex;
+  color: getColor('text-main');
+  background: #E9EBEF;
+  text-transform: none;
+  @include font(12px, 15.6px);
+  font-weight: 700;
+  padding: 8px 10px;
+  text-align: center;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: #B2BAC7;
+    color: getColor('main');
+
+    & svg {
+      fill: getColor('main');
+    }
+  }
+
+  & svg {
+    margin: 0;
+    margin-left: 5px;   
+  }
+}
+
+.categoryButton {
+  width: 200px;
+  display: block;
+  text-transform: none;
+  @include font(12px, 15.6px);
+  font-weight: 700;
+  padding: 8px 0;
+}

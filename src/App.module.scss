@@ -1,0 +1,23 @@
+@import './sass/utils/variables';
+@import './sass/utils/functions';
+@import './sass/utils/mixins';
+
+.main {
+  background-color: inherit;
+  /* 1 flex-grow, 0 flex-shrink, auto flex-basis */
+  flex: 1 0 auto;
+}
+
+.title {
+  margin-top: 10px;
+  font-weight: 700;
+  @include font(24px, 24px);
+  color: getColor('text-main');
+}
+
+.products {
+  margin-top: 10px;
+  font-weight: 400;
+  @include font(12px, 15.6px);
+  color: getColor('text-desc');
+}
